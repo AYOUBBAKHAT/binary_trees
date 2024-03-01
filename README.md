@@ -70,7 +70,7 @@ Function Prototypes
 <details>
     <summary>AHMED AZAGAZ</summary>
     <ul>
-    <li><a href="https://github.com/ahmedazagaz">LinkedIn</a></li>
+    <li><a href="https://github.com/ahmedazagaz">Github</a></li>
     <li><a href="https://www.linkedin.com/in/ahmed-azagaz-0678b7281/">LinkedIn</a></li>
     </ul>
 </details>
