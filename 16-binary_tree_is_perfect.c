@@ -9,7 +9,7 @@
 int tree_is_perfect(const binary_tree_t *tree)
 {
 	int l = 0, r = 0;
-	
+
 	if (tree->left && tree->right)
 	{
 		l = 1 + tree_is_perfect(tree->left);
