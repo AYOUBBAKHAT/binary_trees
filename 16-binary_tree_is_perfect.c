@@ -35,7 +35,7 @@ int tree_is_perfect(const binary_tree_t *tree)
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
 	int result = 0;
-	
+
 	if (tree == NULL)
 	{
 		return (0);
