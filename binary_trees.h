@@ -9,7 +9,7 @@
 /* Data structures */
 
 /**
- * struct binary_tree_s - Binary tree node
+ * struct binary_tree_s - Node of a binary tree
  * @n: Integer stored in the node
  * @parent: Pointer to the parent node
  * @left: Pointer to the left child node
@@ -28,9 +28,9 @@ typedef struct binary_tree_s avl_t;
 typedef struct binary_tree_s heap_t;
 
 /**
- * struct levelorder_queue_s - Level order traversal queue.
- * @node: A node of a binary tree.
- * @next: The next node to traverse to in the binary tree.
+ * struct levelorder_queue_s - Queue node for level order traversal
+ * @node: A node of a binary tree
+ * @next: Pointer to the next node in the queue
  */
 typedef struct levelorder_queue_s
 {
@@ -38,10 +38,10 @@ typedef struct levelorder_queue_s
 	struct levelorder_queue_s *next;
 } levelorder_queue_t;
 
-/* Printing helper function */
+/* Helper function for printing binary trees */
 void binary_tree_print(const binary_tree_t *);
 
-/* Task function prototypes */
+/* Function prototypes */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
@@ -84,3 +84,4 @@ int heap_extract(heap_t **root);
 int *heap_to_sorted_array(heap_t *heap, size_t *size);
 
 #endif /* BINARY_TREES_H */
+
