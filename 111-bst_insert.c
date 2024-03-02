@@ -42,7 +42,8 @@ bst_t *bst_insert(bst_t **tree, int value)
 				new = temp->right = aux;
 			}
 		}
-		else																return (NULL);
+		else
+			return (NULL);
 	}
 	return (new);
 }
